@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    font-family: 'Playfair Display',serif;
+    background-image: url("fondo-zeke1.jpg");
+}
+
+/*Nav*/
+nav{
+    padding: 0px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+} 
+    
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: green;
+    margin: 10px 20px;
+    position: relative;
+}
+.logo{
+    height: 80px;
+}
+.nav-link:hover{
+    color:yellow;
+}
+.nav-link:hover::before{
+    width: 100%;
+}
+
+.nav-link::before{
+    content: "";
+    height: 2px;
+    width: 0%;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+}
+
+
+/*Header y titulito de ubi en main*/
+.encabezado, #ubi, .direccion, #Bienvenido{
+    color: black;
+    text-shadow: 1px 1px 2px black, 0 0 1em yellowgreen, 0 0 0.2em yellowgreen;
+    text-decoration: underline;
+}
+/*Main*/
+main > p::first-letter{color:green; font-size: 1.5em;}
+
+    
+iframe{
+    width: 300px;
+    min-width: 20%;
+    max-width: 70%;
+    height: 300px;
+    min-height: 5%;
+    max-height: 100%;
+    border-radius: 40px;
+    padding: 0.5rem;
+}
+
+main{
+    font-weight: bold;
+    color: rgb(140,170,120);
+    background-color: rgb(229,242,222, 75%);
+    border-radius: 40px;
+    margin: auto;
+    max-width: 60%;
+}
+
+.links-main{
+    color: green;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+
+/*Footer*/
+
+
+#instagram, #instagram-icon, #tel, #tel-icon, #contacto, #nosotros,  #facebook, #facebook-icon {
+    color: rgb(229,242,222);
+}
+footer > div{
+    font-weight: bold;
+}
+
+footer{
+    margin: auto;
+    min-height: 60px;
+    max-width: 60%;
+    background-color: green;
+    justify-content: space-between;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+@media (max-width: 600px){
+ /*nav*/
+    nav{
+            display: flex;
+            flex-direction: column;
+            padding: 1px 0px;
+            justify-content: space-around;
+        }
+    
+    .nav-link{
+        padding: 0px;
+        font-size: 5vw;
+        display: inline-block;
+        text-decoration: none;
+        color: green;
+        margin: 1vw 4vw;
+        position: relative;/*ss*/
+    }
+    .logo{
+        margin: 0px;
+        }
+    a:hover::before{
+        width: 100%;
+    }
+    
+
+/*Main, header y footer*/
+    main{
+        display: flex;
+        flex-direction: column;
+        padding: 2px 2px;
+        justify-content: stretch;
+        font-size: 3vw;
+    }
+    
+    header{font-size: 3vw;}
+    
+    p, i, footer{
+        font-size: 3vw;
+    }
+    
+    iframe{
+        width: auto;
+        height: auto;
+        max-height: 30%;
+    }
+}

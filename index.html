@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cuñados Restaurant</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <link href="index.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Homemade+Apple&family=Mr+Dafoe&family=Playfair+Display&family=Satisfy&family=Seaweed+Script&display=swap" rel="stylesheet">
+  <!--favIcon y fontawesome-->
+  <link rel="icon" href="logos-sinfondo-BLANCO1.png">
+  <script src="https://kit.fontawesome.com/6c351971ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="nav-logo">
+    <a href = "index.html">
+      <img class="logo" src = "logos-sinfondo-definitivo.png" alt="logo-restaurant">
+    </a>
+    <a class="nav-link" href="index.html">Inicio </a>
+    <a class="nav-link" href="quienessomos.html">¿Quienes Somos? </a>
+    <a class="nav-link" href="menu.html">Menú</a>
+    <a class="nav-link" href="especialidadesaYfechas.html">Especiales</a>
+  </nav>
+
+  <header>
+    <h2 class="encabezado"><i class="fa-solid fa-utensils"></i> CAFETERÍA - PIZZERÍA - RESTAURANT <i class="fa-solid fa-utensils"></i></h2>
+    <h4 class="direccion"><i class="fa-solid fa-location-dot"></i> Av. Belgrano 3383, Almagro, CABA </h4>
+    <h1 id="Bienvenido">Bienvenido a Cuñados</h1>
+  </header>
+
+
+  <main class="texto-principal">
+    <p class="primerP">Abierto al público desde 2010 con un menú de más de 30 opciones para elegir, ya sea un plato fuerte para almorzar o cenar,
+      o sino algo más ligero para desayuno o merienda.</p>
+    <p>De nuestro menú destacamos principalemente los platos típicos de Tucumán: locro (en fiestas), empanadas, humitas, tamales, entre otros (Preguntar si hay para el día). Pero también disponemos de los platos más clásicos, como una buena milanesa,
+      pizza, pastas caseras (especialidad), tartas, entre muchos otros.</p>
+    <p>Para ver el menú haga click <a class="links-main" href="menu.html">aquí</a> o también se lo puede <a class="links-main" href="menu.jpg" download>descargar</a></p>
+
+    <div>
+      <header id="ubi"><i class="fa-solid fa-map-location"></i> Nuestra ubicación <i class="fa-solid fa-map-location"></i></header>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52554.49067860805!2d-58.477847193250234!3d-34.5875782589429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf70b90f79b%3A0xa3ec5a97a9d895dc!2zQ3XDsWFkb3M!5e0!3m2!1ses-419!2sar!4v1661387180029!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <p>Los esperamos de lunes a sábados de 8 a 23hs</p>
+    <p>Horario de reparto (gratuito):
+      De 11hs a 16hs y de 20hs a 24hs</p>
+  </main>
+
+  <footer>
+    <div>
+      <p id="contacto">Contacto y redes:</p>
+      <i id="facebook-icon"class="fa-brands fa-facebook"></i>
+      <a id ="facebook" class="links" href="https://www.facebook.com/profile.php?id=100063704076501" target="_blank">Facebook</a><br>
+      <i id ="instagram-icon" class="fa-brands fa-instagram"></i>
+      <a id ="instagram" class="links" href="https://instagram.com/cunadosrestaurante?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a><br>
+      <i id ="tel-icon" class="fa-solid fa-phone"></i>
+      <a id="tel">Tel: 4865-0745/4889-9298</a>
+    </div>
+  
+    <h6 ><a id ="nosotros" class="links" href="quienessomos.html">Acerca de nosotros</a></h6>
+  </footer>
+</body>
+
+    <!--Orden de creación
+    LISTO----1° Maquetar con Flexbox o GRID------------------------------------------------------------------------------------------------------
+    LISTO----2° Etuqyetas semánticas, tipo header, footer, nav(?), aside
+    LISTO??----3° Hacer una página totamente responsive con 3 puntos de corte----------------------------------------------------------------------
+    (Me faltaría para un tamaño más pero creo que se adapta bastante bien en tablet y celular)------ Hacer Para 3 tamaños de dispositivos diferentes
+
+    A agregar:
+    LISTO----Iframe, Iconos de FontAwesoma o Flaticon (PARA INSTAGRAM)
+
+    LISTOO, EN EL MENU-Animación, transformación O una transición (decir en qué parte del sitio está)-----------------------------------------------------
+        -menu desplegable?
+        -ALGO CON FECHAS "IMPORTANTES"
+
+    -formulario de contacto mediante JS (opcional:podrá enviar un mail utilizando algun servicio externo destinado pa eso)--------------
+        CLASE HTML 4. CLASE JS ?
+    -CONSUMIR UNA API REST DESDE JS. DEBERÁ INFORMAR LA api UTILIZADA AL ENTREGAR EL TP-------------------------------------------------
+
+    LISTO a mi parecer(Fabián)-Se evaluará maquetación, alineación, orden y márgenes entre elementos.
+    LISTO CREO---TIPOGRAFIA ACORDE AL TEMA, es decir RESTAURANTE
+    LISTO--------CASI LISTO-VER SI LO VOY A MODIFICAR-FOTOGRAFÍA DE CALIDAD Y OPTIMIZADA PARA WEB
+    LISTO- VERDE BLANCO, AMARILLO -PALETA DE COLORES ACORDE A LA TEMÁTICA (). LOGO DEL SITIO.
+      NOTA:la paleta la obtuve mediante https://imagecolorpicker.com/es poniendo la foto del logo del restaurant
+    
+    PUEDO HACER UNA LISTA EN LA APG DE FECHAS IMPORTANTES, ESTILOS:--------------------------------------------------------------------
+        https://www.w3schools.com/css/css_list.asp
+        https://developer.mozilla.org/es/docs/Learn/CSS/Styling_text/Styling_lists
+    Puedo usar validator al final https://validator.w3.org/ para ver si hay errores.
+-->
