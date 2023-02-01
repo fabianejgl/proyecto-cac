@@ -7,11 +7,11 @@ Html, CSS, JavaScript. El proyecto consta en hacer la página web de un restaura
 ## Autor :black_nib:
 **Fabián Gómez Laguna**
 
-* [LinkeddIn]()
+* [LinkeddIn](www.linkedin.com/in/fabianejgl)
 * [Portfolio web]()
 
 ## Ver ejemplo en vivo
--
+-https://stately-smakager-80f3b0.netlify.app/index.html
 
 ##Instalación
 Este proyecto no requiere instalación, simplemente abre la carpeta o haz doble clik en el .html
