@@ -7,7 +7,7 @@ Html, CSS, JavaScript. El proyecto consta en hacer la página web de un restaura
 ## Autor :black_nib:
 **Fabián Gómez Laguna**
 
-* [LinkeddIn](www.linkedin.com/in/fabianejgl)
+* [LinkeddIn](www.linkedin.com/in/fabianejgl/)
 * [Portfolio web]()
 
 ## Ver ejemplo en vivo
