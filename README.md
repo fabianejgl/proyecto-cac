@@ -1,7 +1,7 @@
 ## Descripción proyecto-cac 	:book:
 Proyecto: Cuñados Restaurant :stew:
 
-Éste es mi proyecto para el 1° trabajo del curso Full Stack Python de Codo a Codo, para el mismo usé
+Éste es mi proyecto para el 1° trabajo del curso Full Stack Python de Codo a Codo para el cual usé
 Html, CSS, JavaScript. El proyecto consta en hacer la página web de un restaurante/bar de una persona cercana.
 
 ## Autor :black_nib:
