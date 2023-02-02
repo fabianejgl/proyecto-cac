@@ -11,7 +11,7 @@ Html, CSS, JavaScript. El proyecto consta en hacer la página web de un restaura
 * [Portfolio web]()
 
 ## Ver ejemplo en vivo
--https://stately-smakager-80f3b0.netlify.app/index.html
+-https://sweet-lamington-3577c7.netlify.app/
 
 ##Instalación
 Este proyecto no requiere instalación, simplemente abre la carpeta o haz doble clik en el .html
